@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 블럭 1번 */
+.box1{
+    width: 100%;
+    height: 800px;
+    background-image: url(img/사진1.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.con1{
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.img01{
+    display: block;
+    position: absolute;
+    top: 179px;
+    left: 26px;
+}
+.img02{
+    display: block;
+    position: absolute;
+    top: 179px;
+    right: 79px;
+}
+/* 블럭 2번 */
+.box2{
+    width: 100%;
+    height: 279px;
+    background-color: #BC1125;
+}
+.con2{
+    width: 1100px;
+    height: 279px;
+    margin: 0 auto;
+    position: relative;
+}
+.con2>img{
+    position: absolute;
+}
+.con2>img:nth-child(1){
+    right: 50px;
+    top: 108px;
+
+}
+.con2>img:nth-child(2){
+    width: 600px;
+    left: -120px;
+    top: -60px;
+}
+
+/* 블럭 3번 */
+.box3{
+    width: 100%;
+    height: 2153px;
+    background-color: red;
+    position: relative;
+}
+.box3_bg{
+    width: 100%;
+    height: 900px;
+    background-image: url(img/사진09.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 20%;
+}
+.con3{
+    width: 1100px;
+    height: 1857px;
+    margin: 0 auto;
+    position: relative;
+}
+.img05{
+    display: block;
+    margin: 0 auto;
+    padding-top: 96px;
+    position: absolute;
+    right: 300px;
+    z-index: 1;
+}
+.img06{
+    display: block;
+    margin: 0 auto;
+    padding-top: 55px;
+    position: absolute;
+    right: -60px;
+    top: -300px;
+}
+.txt{
+    padding-top: 54px;
+    width: 1100px;
+    height: 276px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 108px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    bottom: 250px;
+}
+
+/* 블럭 4번 */
+.box4{
+    width: 100%;
+    height: 1400px;
+    background-image: url(img/사진11.png);
+    background-position: center;
+    background-size: cover;
+}
+.con4{
+    width: 1100px;
+    height: 858px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.con4 > img:nth-child(1){
+    position: absolute;
+    bottom: -250px;
+    right: 150px;
+    width: 800px;
+}
+.con4 > img:nth-child(2){
+    position: absolute;
+    bottom: -400px;
+    right: 90px;
+    width: 700px;
+}
+/* 블럭 5번 */
+.box5{
+    width: 100%;
+    height: 1004px;
+}
+.con5{
+    width: 1100px;
+    height: 1004px;
+    margin: 0 auto;
+    text-align: center;
+}
+.con5 > img{
+    padding-top: 108px;
+}
+/* 블럭 6번 */
+.box6{
+    width: 100%;
+    height: 511px;
+}
+.con6{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(img/사진08.png);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+.con6 > img{
+    padding-top: 65px;
+}
