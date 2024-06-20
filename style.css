@@ -7,7 +7,7 @@
 .box1{
     width: 100%;
     height: 800px;
-    background-image: url(img/사진1.png);
+    background-image: url(img/1.png);
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -66,7 +66,7 @@
 .box3_bg{
     width: 100%;
     height: 900px;
-    background-image: url(img/사진09.png);
+    background-image: url(img/9.png);
     background-position: center;
     background-size: cover;
     position: absolute;
@@ -112,7 +112,7 @@
 .box4{
     width: 100%;
     height: 1400px;
-    background-image: url(img/사진11.png);
+    background-image: url(img/11.png);
     background-position: center;
     background-size: cover;
 }
@@ -157,7 +157,7 @@
 .con6{
     width: 100%;
     margin: 0 auto;
-    background-image: url(img/사진08.png);
+    background-image: url(img/8.png);
     text-align: center;
     background-position: center;
     background-size: cover;
